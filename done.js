@@ -84,8 +84,25 @@ else alert("you want" + scoops + "scoops of" + flavor);
 
 /* No Prompt */
 
-
 /* Prompt */
-
+* Var Alert Prompt */
+// make a variable for pet type, prompt user for it 
+var pettype = prompt("What is your pet type");
+// make a variable for pet name, prompt user for it
+var petname = propmpt("What is your pet's name ");
+// alert "You have a pet type named pet name 
+alert(" you have a" + pettype + "named" + petname);
 
 /* Prompt with Conditional */
+// make a variable for pet type, prompt user for it 
+var pettype = prompt("What is your pet type");
+// make a variable for pet name, prompt user for it
+var petname = prompt("What is yout pet's name");
+// alert "You have a pet type named pet name 
+alert(" you have a " + pettype + " named " + petname);
+// if pet is a dog, say "I like dogs, too!"
+if (Pet = "dog") alert(" I like dogs too!");
+// if it is a cat, say "I'm allergic to cats"
+if (pet == "cat") alert(" I'm allergic to cats");
+// If it is not a dog or a cat, say "what an interesting pet!"
+if (pet != "dog" || "cat") alert("What an interesting pet!");
