@@ -106,3 +106,15 @@ if (Pet = "dog") alert(" I like dogs too!");
 if (pet == "cat") alert(" I'm allergic to cats");
 // If it is not a dog or a cat, say "what an interesting pet!"
 if (pet != "dog" || "cat") alert("What an interesting pet!");
+
+function main();
+var age = alert("how old are you");
+var born = alert("what year were you born?");
+if (age != born) alert(" underaged");
+    else propmt("welcome ! ");
+
+    function age();
+function getDate(1-31);
+var birthYear = (thisYear - age)
+
+
