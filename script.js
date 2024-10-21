@@ -6,4 +6,8 @@
  * @return: none (main never gets returns
  */
 
-function main()
+function main(){
+    let dogName = prompt("what is your dogs name");
+    let cups = prompt("how many cups of food would you like");
+    feedDog(dogName || Cups);
+}

@@ -41,7 +41,7 @@ var age = prompt(16);
 // make a string variable for name, prompt user for their name
 var name = prompt("ari");
 // alert name is age years old
-alert( name "is" + age "years old");
+alert( name +"is" + age "years old");
 
 /* Prompt with Conditional */
 
@@ -53,7 +53,7 @@ var name = prompt("ari");
 // if age is greater than 16, alert "you don't look that old!"
 if (age > 16) alert("You don't look that old");
 // otherwise alert name is age years old
-else alert(name "is" + age "years old");
+else alert(name + "is" + age "years old");
 /* ICE CREAM */
 
 /* No Prompt */
@@ -118,3 +118,8 @@ function getDate(1-31);
 var birthYear = (thisYear - age)
 
 
+function main(){
+    let dogName = prompt("what is your dogs name");
+    let cups = prompt("how many cups of food would you like");
+    feedDog(dogName || Cups);
+}
